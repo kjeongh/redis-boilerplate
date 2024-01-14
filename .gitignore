@@ -1,0 +1,34 @@
+# Created by https://www.toptal.com/developers/gitignore/api/macos,pycharm,django
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,pycharm,django
+
+### Django ###
+#*.log
+#*.pot
+#*.pyc
+#__pycache__/
+#local_settings.py
+#db.sqlite3
+#db.sqlite3-journal
+#media
+
+
+# Environments
+.env
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+*.icloud
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# IDE
+.idea/**/*.xml
+.idea/**/*.iml
+.idea/.gitignore
